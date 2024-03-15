@@ -23,3 +23,7 @@
 
 11. QUICK POPUPS:
   11.1 ctrl + shift + I   == View a quick definition of a symbol (tag, class, method/function, field, and so on).
+
+
+
+12. alt + shift + M.Click   == introduce Multiple cursors or carets. to remove caret, do the same, but only at the place where caret is blinking.
