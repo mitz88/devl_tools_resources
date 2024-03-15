@@ -1,0 +1,9 @@
+=== PyCharm (v 2023.3.4) ===:
+
+1. ctrl + E  == pops up a list of recently closed files. shift+enter to open any, from there.
+
+2. ctrl + shift + A  == pops up window with "Actions" tab selected. Useful for searching any action users can perform.common phrases used(goto,optimize,theme, )
+
+3. ctrl + shift + <-/->  = navigate to/from clicked entity.
+
+4. ctrl + alt + L  == select the region, it will properly format the code in there. correct ill formatted tabs, spaces, newlines etc.
