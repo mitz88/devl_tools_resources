@@ -1,9 +1,25 @@
-=== PyCharm (v 2023.3.4) ===:
+=== PyCharm (v 2023.3.4) ===(Source- https://www.jetbrains.com/help/pycharm/using-code-editor.html):
 
 1. ctrl + E  == pops up a list of recently closed files. shift+enter to open any, from there.
 
 2. ctrl + shift + A  == pops up window with "Actions" tab selected. Useful for searching any action users can perform.common phrases used(goto,optimize,theme, )
 
-3. ctrl + shift + <-/->  = navigate to/from clicked entity.
+#####3. ctrl + shift + <-/->  = navigate to/from clicked entity.
 
 4. ctrl + alt + L  == select the region, it will properly format the code in there. correct ill formatted tabs, spaces, newlines etc.
+
+5. ctrl + G   == Goto linenumber[:columnnumber] in a file. Ex:- 3:4 , 165
+
+6. ctrl+w ctrl+w ...  = select literals/entities by one level up the parse tree structure each time. 
+                          Ex:- Inside a function definition, First ctrl+w selects variable name, second ctrl+w selects whole row, third selects whole block, and so on. 
+
+7. ctrl + Tab  == Toggle between opened tabs.
+
+8. ctrl + `  == switch between schemes, keymaps, and viewing modes, zoom level.
+
+9. alt + <-/->  == switch between tabs through left/right.
+
+10. ctrl + alt + S  == Open the Settings dialogue Tab.
+
+11. QUICK POPUPS:
+  11.1 ctrl + shift + I   == View a quick definition of a symbol (tag, class, method/function, field, and so on).
