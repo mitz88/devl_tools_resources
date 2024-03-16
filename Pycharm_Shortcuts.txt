@@ -2,40 +2,40 @@
     [ FEW ASSUMPTIONS FOR THESE BELOW KEYMAPS -  1)CARET = CURSOR   ]
 
 General Settings/Accessibility:
-1. ctrl + shift + A ►►  pops up window with "Actions" tab selected. Useful for searching any action users can perform. Some common phrases searched(i.e. goto,optimize,theme, etc. Use UI/Pycharm jargons for best results.)
-2. ctrl + alt + S  ►► Open the "Settings" dialogue Tab to change the PyCharm settings: both global and project-specific. Settings marked with icon "⬒"(box icon), apply only to the current project.
-3. ctrl + `  ►► switch between schemes, keymaps, and viewing modes, zoom level.
+1. ctrl + shift + A    ►►  pops up window with "Actions" tab selected. Useful for searching any action users can perform. Some common phrases searched(i.e. goto,optimize,theme, etc. Use UI/Pycharm jargons for best results.)
+2. ctrl + alt + S       ►► Open the "Settings" dialogue Tab to change the PyCharm settings: both global and project-specific. Settings marked with icon "⬒"(box icon), apply only to the current project.
+3. ctrl + `            ►► switch between schemes, keymaps, and viewing modes, zoom level.
 4. alt + shift + . / ,  ►► Increase/decrease font size in all tabs
-5. MAKE FONTS BOLD  ►► Settings -> Editor -> Color Scheme -> General -> Scheme [Dark] -> Text -> Default text -> ☑ Bold (Check the Bold checkbox to enable Bold fonts to get applied everywhere).
+5. MAKE FONTS BOLD     ►► Settings -> Editor -> Color Scheme -> General -> Scheme [Dark] -> Text -> Default text -> ☑ Bold (Check the Bold checkbox to enable Bold fonts to get applied everywhere).
                       Also you have to 
 6. FONT SIZE [in/de]crease  ►► Zoom In/Out to increase or decrease font size, by: Settings -> Editor -> General -> Mouse Control -> Change Font Size... 
 
 File Navigation:
-1. ctrl + E  ►► keymap to pop up a list of recently closed files. shift+enter to open any, from there.
-2. ctrl + Tab  ►► Toggle between files, opened in tabs.
+1. ctrl + E     ►► keymap to pop up a list of recently closed files. shift+enter to open any, from there.
+2. ctrl + Tab   ►► Toggle between files, opened in tabs.
 3. alt + <-/->  ►► switch between opened TABS through left/right.
 
 Code Editing/Formatting:
-12. alt + shift + LeftMouseClick  ►► introduce Multiple cursors or carets. to remove caret, do the same, but only at the place where caret is blinking.
-4. ctrl + alt + L  ►► select the region, it will properly format the code in there. correct ill formatted tabs, spaces, newlines etc.
+12. alt + shift + LeftM.Click   ►► introduce Multiple cursors or carets. to remove caret, do the same, but only at the place where caret is blinking.
+4. ctrl + alt + L     ►► select the region, it will properly format the code in there. correct ill formatted tabs, spaces, newlines etc.
 
 11. QUICK POPUPS:
   11.1 ctrl + shift + I  ►► View a quick definition of a symbol (tag, class, method/function, field, and so on).
 
 SOURCE CODE NAVIGATION:
-  5. ctrl + G  ►► keymap to Goto linenumber[:columnnumber] in a file. Ex:- 3:4 , 165
-  3. alt + shift + <-/->  ►► navigate to/from clicked entity one step at a time. If navigation happened from one file to another, that will also happen with this keymap.   
-  6. ctrl+w ctrl+w ...  ►► keymap to select literals/entities by one level up the parse tree structure each time. 
+  5. ctrl + G    ►► keymap to Goto linenumber[:columnnumber] in a file. Ex:- 3:4 , 165
+  3. alt + shift + <-/->     ►► navigate to/from clicked entity one step at a time. If navigation happened from one file to another, that will also happen with this keymap.   
+  6. ctrl+w ctrl+w ...    ►► keymap to select literals/entities by one level up the parse tree structure each time. 
                           Ex:- Inside a function definition, First ctrl+w selects variable name, second ctrl+w selects whole row, third selects whole block, and so on.
-  e. ctrl + M  ►► To find the current caret location in the editor. Might be helpful if you do not want to scroll through a large file.
-  #. ctrl + F3  ►► To highlight a word at the caret you are trying to locate, select Edit | Find | Next Occurrence of the Word at Caret from the main menu. If you are using Windows, you can also press Ctrl+F3.
-  #. ctrl+Shift+E  ►► To open the Recent Locations popup. List starts with the latest visited location at the top. Use the same shortcut or select the Show changed only checkbox to see only the locations with changed code.
+  e. ctrl + M     ►► To find the current caret location in the editor. Might be helpful if you do not want to scroll through a large file.
+  #. ctrl + F3      ►► To highlight a word at the caret you are trying to locate, select Edit | Find | Next Occurrence of the Word at Caret from the main menu. If you are using Windows, you can also press Ctrl+F3.
+  #. ctrl+Shift+E     ►► To open the Recent Locations popup. List starts with the latest visited location at the top. Use the same shortcut or select the Show changed only checkbox to see only the locations with changed code.
   #. In the Project tool window in left side, select Options ( "⋮" triple vertical dots) and from the context menu select "Always Select Opened File". Now PyCharm will always track the file that is currently opened in the active 
                     editor tab and locate it in the Project tool window automatically. 
-  #. ctrl + H , ctrl + alt + H  ►► Show Source Code Hierarchy.
-  #. ctrl+F12 / alt+7  ►► Shows PopUp / Tool Window. View source file structure(which classes, methods, functions are defined). You can additionally narrow down your search results by using the checkboxes in the popup.
+  #. ctrl + H , ctrl + alt + H    ►► Show Source Code Hierarchy.
+  #. ctrl+F12 / alt+7    ►► View source file structure(which classes, methods, functions are defined). Shows PopUp / Tool Window respectively. You can additionally narrow down your search results by using the checkboxes in the popup.
               Inherited members : Displays all methods and fields inherited by the current class and accessible from it. The inherited members are displayed gray to distinguish them from the members defined in the current class. 
-  #. alt + 1  ►► Show members, in the Project tool window﻿. In the Project tool window Alt01, click Options ( "⋮" triple vertical dots), in the title bar and select Tree Appearance | Show Members.
+  #. alt + 1      ►► Show members, in the Project tool window﻿. In the Project tool window Alt01, click Options ( "⋮" triple vertical dots), in the title bar and select Tree Appearance | Show Members.
 
 Navigate Errors or Warnings﻿:
     #. To jump to the next or previous found issue in your code, press F2 or ShiftF2 respectively. Alternatively, go to Navigate | Next / Previous Highlighted Error in the main menu. 
